@@ -35,6 +35,8 @@ Siga estas etapas para configurar e executar o projeto em sua máquina local:
 3. Instale as dependências: `npm install`
 4. Execute o comando: `docker-compose up` para iniciar o MongoDB mais a aplicação
 5. O servidor estará acessível em: `http://localhost:3000`
+6. Para fazer as chamadas para a API, instale a extensão `REST Client` no **Visual Studio Code** e abra o arquivo `api.http`, em seguida clique no botões *Send Request*
+7. Alternativamente, também foi disponibilizado uma *Collection* do **Postman** no diretório: `../postman-collection/*`
 
 # Endpoints da API
 
