@@ -32,7 +32,7 @@ Siga estas etapas para configurar e executar o projeto em sua máquina local:
 
 1. Clone este repositório: `git clone https://github.com/guilhermealves-dev/nestjs-api-fullcycle-challenge-2.git`
 2. Navegue até o diretório do projeto: `cd nestjs-api-fullcycle-challenge-2`
-3. Execute o comando: `docker-compose up` para iniciar o MongoDB mais a aplicação da API
+3. Execute o comando: `docker compose up` para iniciar o MongoDB mais a aplicação da API
 4. O servidor estará acessível em: `http://localhost:3000`
 5. Para fazer as chamadas para a API, instale a extensão `REST Client` no **Visual Studio Code** e abra o arquivo `api.http`, em seguida clique no botões *Send Request*
 6. Alternativamente, também foi disponibilizado uma *Collection* do **Postman** no diretório: `../postman-collection/*`
