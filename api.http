@@ -1,6 +1,7 @@
+### List Assets
 GET http://localhost:3000/api/assets
 
-###
+### Create Asset 
 POST http://localhost:3000/api/assets
 Content-Type: application/json
 
@@ -9,10 +10,10 @@ Content-Type: application/json
   "symbol": "ASSET1"
 }
 
-###
+### List Orders
 GET http://localhost:3000/api/orders
 
-###
+### Create Order
 POST http://localhost:3000/api/orders
 Content-Type: application/json
 
@@ -20,6 +21,3 @@ Content-Type: application/json
   "asset_id": "asset1",
   "price": 100
 }
-
-### 
-GET http://localhost:3000/
